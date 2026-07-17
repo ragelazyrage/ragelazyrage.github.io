@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MIND THAT GAP</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: #0a0a0a;
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans KR", sans-serif;
+  }
+  header {
+    padding: 32px 20px 16px;
+    text-align: center;
+  }
+  header h1 {
+    margin: 0 0 6px;
+    font-size: 28px;
+    letter-spacing: 1px;
+    color: #EF0107;
+  }
+  header p {
+    margin: 0;
+    color: #bbbbbb;
+    font-size: 14px;
+  }
+  .gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    max-width: 720px;
+    margin: 20px auto;
+    padding: 0 4px;
+  }
+  .gallery img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 6px;
+    background: #1a1a1a;
+  }
+  footer {
+    text-align: center;
+    padding: 24px 16px 40px;
+    color: #555;
+    font-size: 12px;
+  }
+</style>
+</head>
+<body>
+  <header>
+    <h1>MIND THAT GAP</h1>
+    <p>여기 제목/문구는 자유롭게 바꾸셔도 됩니다</p>
+  </header>
+
+  <div class="gallery">
+    <img src="photo1.png" alt="photo1" loading="lazy">
+    <img src="photo2.png" alt="photo2" loading="lazy">
+  </div>
+
+  <footer>Updated whenever needed — same QR, always current.</footer>
+</body>
+</html>
